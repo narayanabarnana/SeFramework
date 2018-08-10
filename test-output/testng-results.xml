@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50460" started-at="2018-08-10T10:26:19Z" finished-at="2018-08-10T10:27:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50460" started-at="2018-08-10T10:26:19Z" finished-at="2018-08-10T10:27:09Z">
+      <class name="testCases.CreateTask">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.CreateTask@14cb805]" name="setUp" is-config="true" duration-ms="136" started-at="2018-08-10T15:56:18Z" finished-at="2018-08-10T15:56:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CRMLogin()[pri:0, instance:testCases.CreateTask@14cb805]" name="CRMLogin" is-config="true" duration-ms="22265" started-at="2018-08-10T15:56:19Z" finished-at="2018-08-10T15:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRMLogin -->
+        <test-method status="PASS" signature="CRMCreateTask()[pri:0, instance:testCases.CreateTask@14cb805]" name="CRMCreateTask" duration-ms="27842" started-at="2018-08-10T15:56:41Z" finished-at="2018-08-10T15:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRMCreateTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.CreateTask@14cb805]" name="getResult" is-config="true" duration-ms="16" started-at="2018-08-10T15:57:09Z" finished-at="2018-08-10T15:57:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CRMCreateTask status=SUCCESS method=CreateTask.CRMCreateTask()[pri:0, instance:testCases.CreateTask@14cb805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:testCases.CreateTask@14cb805]" name="CloseApp" is-config="true" duration-ms="327" started-at="2018-08-10T15:57:09Z" finished-at="2018-08-10T15:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.CreateTask@14cb805]" name="teardown" is-config="true" duration-ms="376" started-at="2018-08-10T15:57:09Z" finished-at="2018-08-10T15:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.CreateTask -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
