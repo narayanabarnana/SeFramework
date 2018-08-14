@@ -55,15 +55,15 @@ public class DealsProduct extends BaseExtentTest{
 			List<WebElement> ColRow=RowWebElement.get(i).findElements(By.xpath("td"));
 			int colcount=ColRow.size();
 			System.out.println("Column Count for Row " + i + " is " + colcount);
-			for(int j=1;j<colcount;j++)
-			{
-				
-				List<WebElement> links=ColRow.get(i).findElements(By.tagName("a"));
-				int linkscount = links.size();
-				System.out.println("Links count in the webtable products is " + linkscount);
-				
-				
-			}
+//			for(int j=1;j<colcount;j++)
+//			{
+//				
+//				List<WebElement> links=ColRow.get(i).findElements(By.tagName("a"));
+//				int linkscount = links.size();
+//				System.out.println("Links count in the webtable products is " + linkscount);
+//				
+//				
+//			}
 			
 		}
 		
