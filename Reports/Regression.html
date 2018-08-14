@@ -47,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Aug 13, 2018 05:29:40 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Aug 14, 2018 10:58:06 AM</span>
 				</a>
 			</li>
 			<li>
@@ -159,14 +159,14 @@
 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>CRMLogin</span>
-						<span class='test-time'>Aug 13, 2018 05:29:40 PM</span>
+						<span class='test-time'>Aug 14, 2018 10:58:06 AM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2018 05:29:40 PM</span>
-	<span class='label end-time'>Aug 13, 2018 05:30:06 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 25s+888ms</span>
+	<span class='label start-time'>Aug 14, 2018 10:58:06 AM</span>
+	<span class='label end-time'>Aug 14, 2018 11:02:35 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 4m 28s+484ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -180,36 +180,16 @@
 			<tbody>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>5:30:06 PM</td>
+					<td class='timestamp'>11:02:35 AM</td>
 					<td class='step-details'><span class='label white-text red'>DealsProductWebTabletest case failed due to below issues</span></td>
 				</tr>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>5:30:06 PM</td>
-					<td class='step-details'><pre>org.openqa.selenium.WebDriverException: unknown error: arguments[0].setAttribute is not a function
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'DIN86000837', ip: '10.108.199.208', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nbarnana\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
-Session ID: d9bae08bb2f66b7759957c05aac2fb12
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
-	at utility.Highlight.highLightListElement(Highlight.java:36)
-	at testCases.DealsProduct.DealsProductWebTable(DealsProduct.java:36)
+					<td class='timestamp'>11:02:35 AM</td>
+					<td class='step-details'><pre>java.lang.IndexOutOfBoundsException: Index: 5, Size: 5
+	at java.util.ArrayList.rangeCheck(ArrayList.java:638)
+	at java.util.ArrayList.get(ArrayList.java:414)
+	at testCases.DealsProduct.DealsProductWebTable(DealsProduct.java:61)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -238,8 +218,8 @@ Session ID: d9bae08bb2f66b7759957c05aac2fb12
 				</tr>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>5:30:06 PM</td>
-					<td class='step-details'>Screenshot belowcom.aventstack.extentreports.ExtentTest@a12036</td>
+					<td class='timestamp'>11:02:35 AM</td>
+					<td class='step-details'>Screenshot belowcom.aventstack.extentreports.ExtentTest@16f8274</td>
 				</tr>
 			</tbody>
 		</table>
@@ -302,7 +282,7 @@ Session ID: d9bae08bb2f66b7759957c05aac2fb12
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.WebDriverException</span>
+                                <span class='exception-name'>java.lang.IndexOutOfBoundsException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -317,32 +297,12 @@ Session ID: d9bae08bb2f66b7759957c05aac2fb12
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Aug 13, 2018 05:29:40 PM</td>
+                                                        <td>Aug 14, 2018 10:58:06 AM</td>
                                                         <td class='linked' test-id='1'>CRMLogin</td>
-                                                        <td><pre><pre>org.openqa.selenium.WebDriverException: unknown error: arguments[0].setAttribute is not a function
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'DIN86000837', ip: '10.108.199.208', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nbarnana\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
-Session ID: d9bae08bb2f66b7759957c05aac2fb12
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
-	at utility.Highlight.highLightListElement(Highlight.java:36)
-	at testCases.DealsProduct.DealsProductWebTable(DealsProduct.java:36)
+                                                        <td><pre><pre>java.lang.IndexOutOfBoundsException: Index: 5, Size: 5
+	at java.util.ArrayList.rangeCheck(ArrayList.java:638)
+	at java.util.ArrayList.get(ArrayList.java:414)
+	at testCases.DealsProduct.DealsProductWebTable(DealsProduct.java:61)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -405,19 +365,19 @@ Session ID: d9bae08bb2f66b7759957c05aac2fb12
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Aug 13, 2018 05:29:40 PM</div>
+					<div class='panel-lead'>Aug 14, 2018 10:58:06 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Aug 13, 2018 05:30:09 PM</div>
+			 		<div class='panel-lead'>Aug 14, 2018 11:02:35 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>28,466ms</div>
+					<div class='panel-lead'>268,599ms</div>
 				</div>
 			</div>
 		</div>

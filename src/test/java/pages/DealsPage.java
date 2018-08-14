@@ -19,7 +19,7 @@ final WebDriver driver;
 //	@FindBy(how = How.XPATH, using = "//table[@class='datacard']//tr")
 //	public static List<WebElement> WebTable_productsrow;
 	
-	@FindBy(how = How.XPATH, using = "//table[@class='datacard']")
+	@FindBy(how = How.XPATH, using = "//table[@class='datacard']//tbody//tr")
 	public static List<WebElement> WebTable_productsrow;
 	
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Deals')]")
@@ -28,6 +28,11 @@ final WebDriver driver;
 	////a[contains(text(),'New Contact')]
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Products')]")
 	public static WebElement btn_Products;
+	
+	////i[@class='fa fa-money' and @title='Deals']
+	@FindBy(how = How.XPATH, using = "//i[@class='fa fa-money' and @title='Deals']")
+	public static List<WebElement> link_Deals;
+	
 	
 	
 

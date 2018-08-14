@@ -117,9 +117,9 @@ public class BaseExtentTest {
 		
 		//System.out.println(driver);
 		
-		driver.findElement(By.xpath("//a[@href='https://www.freecrm.com/index.cfm?logout=1']")).click();
+		//driver.findElement(By.xpath("//a[@href='https://www.freecrm.com/index.cfm?logout=1']")).click();
 		
-		driver.close();
+		//driver.close();
 		//driver.quit();
 	}
 	
