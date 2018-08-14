@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="83586" started-at="2018-08-13T11:08:40Z" finished-at="2018-08-13T11:10:04Z">
+    <groups>
+    </groups>
+    <test name="Regression Tests" duration-ms="83586" started-at="2018-08-13T11:08:40Z" finished-at="2018-08-13T11:10:04Z">
+      <class name="testCases.CreateTask">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.CreateTask@183da2e]" name="setUp" is-config="true" duration-ms="148" started-at="2018-08-13T16:38:40Z" finished-at="2018-08-13T16:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CRMLogin()[pri:0, instance:testCases.CreateTask@183da2e]" name="CRMLogin" is-config="true" duration-ms="22446" started-at="2018-08-13T16:38:40Z" finished-at="2018-08-13T16:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRMLogin -->
+        <test-method status="PASS" signature="CRMCreateTask()[pri:0, instance:testCases.CreateTask@183da2e]" name="CRMCreateTask" duration-ms="24988" started-at="2018-08-13T16:39:03Z" finished-at="2018-08-13T16:39:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRMCreateTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.CreateTask@183da2e]" name="getResult" is-config="true" duration-ms="9" started-at="2018-08-13T16:39:28Z" finished-at="2018-08-13T16:39:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CRMCreateTask status=SUCCESS method=CreateTask.CRMCreateTask()[pri:0, instance:testCases.CreateTask@183da2e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:testCases.CreateTask@183da2e]" name="CloseApp" is-config="true" duration-ms="189" started-at="2018-08-13T16:39:28Z" finished-at="2018-08-13T16:39:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.CreateTask@183da2e]" name="teardown" is-config="true" duration-ms="273" started-at="2018-08-13T16:40:04Z" finished-at="2018-08-13T16:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.CreateTask -->
+      <class name="testCases.CreateContact">
+        <test-method status="PASS" signature="CRMLogin()[pri:0, instance:testCases.CreateContact@10d210d]" name="CRMLogin" is-config="true" duration-ms="23046" started-at="2018-08-13T16:39:28Z" finished-at="2018-08-13T16:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRMLogin -->
+        <test-method status="PASS" signature="CRMCreateContact()[pri:0, instance:testCases.CreateContact@10d210d]" name="CRMCreateContact" duration-ms="12683" started-at="2018-08-13T16:39:51Z" finished-at="2018-08-13T16:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRMCreateContact -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.CreateContact@10d210d]" name="getResult" is-config="true" duration-ms="0" started-at="2018-08-13T16:40:03Z" finished-at="2018-08-13T16:40:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CRMCreateContact status=SUCCESS method=CreateContact.CRMCreateContact()[pri:0, instance:testCases.CreateContact@10d210d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:testCases.CreateContact@10d210d]" name="CloseApp" is-config="true" duration-ms="217" started-at="2018-08-13T16:40:03Z" finished-at="2018-08-13T16:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testCases.CreateContact -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
