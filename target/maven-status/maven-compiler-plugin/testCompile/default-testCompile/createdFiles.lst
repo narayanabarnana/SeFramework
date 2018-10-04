@@ -15,6 +15,7 @@ interfaceLib\IAlert.class
 interfaceLib\IActions.class
 interfaceLib\IScreenshot.class
 interfaceLib\ITextbox.class
+pages\DealsPage.class
 ImplementedClassLib\CheckboxControl.class
 interfaceLib\IDropdown.class
 factory\BrowserFactory.class
@@ -29,6 +30,7 @@ pages\CRMLoginPage.class
 dataProvider\ConfigDataProvider.class
 pages\ContactPage.class
 pages\AddEmployeePage.class
+testCases\DealsProduct.class
 testCases\BrokenLinks.class
 ImplementedClassLib\TextboxControl.class
 pages\TaskPage.class

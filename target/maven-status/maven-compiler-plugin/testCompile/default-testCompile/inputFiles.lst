@@ -8,6 +8,7 @@ C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\interfaceLib\IFram
 C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\ImplementedClassLib\FrameControl.java
 C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\pages\AssignLeavePage.java
 C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\interfaceLib\IWindowHandle.java
+C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\testCases\DealsProduct.java
 C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\ImplementedClassLib\WindowHandleControls.java
 C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\testCases\DeletingUser.java
 C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\utility\CommonConfig.java
@@ -31,6 +32,7 @@ C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\interfaceLib\IActi
 C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\ImplementedClassLib\AlertControl.java
 C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\crmPages\HomePage.java
 C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\pages\AddEmployeePage.java
+C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\pages\DealsPage.java
 C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\ImplementedClassLib\CheckboxControl.java
 C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\pages\PersonalDetailsPage.java
 C:\Users\Nbarnana\eclipse-workspace\SeFramework\src\test\java\dataProvider\ExcelDataConfig.java
